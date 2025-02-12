@@ -19,7 +19,7 @@ console.log(item_3);
 //10. Создать переменную “item_4”
 let item_4;
 //11. Присвоить переменной item_4 строку "Hello World"
-item_4 = "Hello World"
+item_4 = "Hello World";
 //12. Вывести в консоль item_4.
 console.log(item_4);
 //13. Вывести в консоль сложение item_3 и item_4.
