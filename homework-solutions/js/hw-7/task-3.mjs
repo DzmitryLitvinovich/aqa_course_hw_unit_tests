@@ -9,7 +9,17 @@
 */
 
 function digitalRoot(number) {
-  // Ваш код
-}
+  const digits = number.toString().split('');
 
+  let sum = 0;
+  for (let i = 0; i < digits.length; i++) {
+    sum += Number(digits[i]);
+  }
+
+  if (sum > 9) {
+    return digitalRoot(sum);
+  }
+  return sum;
+}
+//console.log(digitalRoot(19))
 export { digitalRoot };
