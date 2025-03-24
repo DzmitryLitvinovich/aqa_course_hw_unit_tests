@@ -20,7 +20,19 @@ function getRandomArbitrary(min, max) {
 }
 
 function uniqueRandomGenerator(n) {
-  // Ваш код
+  const numbers = new Set();
+
+  return function () {
+    if (numbers.size === n) return 'All numbers were received';
+
+    let num;
+    do {
+      num = Math.floor(Math.random() * n) + 1;
+    } while (numbers.has(num));
+
+    numbers.add(num);
+    return num;
+  };
 }
 
 export { uniqueRandomGenerator };
