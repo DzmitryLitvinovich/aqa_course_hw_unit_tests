@@ -30,7 +30,7 @@
     "hw-8-set": "npm run hw-8-1 ; npm run hw-8-2 ; npm run hw-8-3",
     "hw-9-set": "npm run hw-9-1 ; npm run hw-9-2",
     "hw-10-set": "npm run hw-10-1 ; npm run hw-10-2 ; npm run hw-10-3",
-    "hw-11-set": "npm run hw-11-1 ; npm run hw-11-2 ; npm run hw-11-3",
+    "hw-11-set": "npm run hw-11-1  npm run hw-11-2 ; npm run hw-11-3",
     "pre-commit": "prettier . --write ; git add -A ."
   },
   "author": "",
